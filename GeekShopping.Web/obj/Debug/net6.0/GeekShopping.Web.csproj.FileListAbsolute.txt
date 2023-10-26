@@ -28,3 +28,14 @@ C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\obj\Debu
 C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.pdb
 C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.genruntimeconfig.cache
 C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\ref\GeekShopping.Web.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.csproj.AssemblyReference.cache
+C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.csproj.CopyComplete
