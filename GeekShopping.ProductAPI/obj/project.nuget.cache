@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gWvEozBVHCaqvkZWVosuE2qWi66APcI2NtNwJasmvNRMYEpO5cySWOirSJG+M+3mgRA1oiG/kZHKa5dTh8zTMA==",
+  "dgSpecHash": "HBijytfyE/81sP0q7xxc+1WoFiBt2dcS7j8D3yDY4WpJcBOmLA4dhJxypwbacZwMybnW4n9bGNzCnrq4gh9dGw==",
   "success": true,
-  "projectFilePath": "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+  "projectFilePath": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -77,5 +77,12 @@
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.signa.net.br/webapi/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

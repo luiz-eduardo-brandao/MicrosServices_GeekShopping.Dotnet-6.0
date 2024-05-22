@@ -9,57 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GeekShopping.Web
 build_property.RootNamespace = GeekShopping.Web
-build_property.ProjectDir = C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web\
+build_property.ProjectDir = C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\edu\courses\MicrosservicesArchitecture\GeekShopping\GeekShopping.Web
+build_property.MSBuildProjectDirectory = C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Home/Index.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Home/Privacy.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Product/ProductCreate.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Product/ProductCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0Q3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Product/ProductDelete.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Product/ProductDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Product/ProductIndex.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Product/ProductIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Product/ProductUpdate.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Product/ProductUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0VXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Shared/Error.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Shared/_LoginPartial.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/_ViewImports.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/_ViewStart.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/edu/courses/MicrosservicesArchitecture/GeekShopping/GeekShopping.Web/Views/Shared/_Layout.cshtml]
+[C:/edu/GIT/MicrosServices_GeekShopping.dotnet/GeekShopping.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ucjgrfndyd

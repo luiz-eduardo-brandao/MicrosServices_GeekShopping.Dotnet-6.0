@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpyWMfyVJ5Nd2hH1AdhZ+TCkEEkxpvHMUiAhaajLwwNrmyHIvPQW1ny2oWLq4bWWEuYm8jbgZ+7yMR+mlqjMEg==",
+  "dgSpecHash": "b7CU80uuezphhd1czxul2ZlFQgYKz6OVILHZqKJrHEcaJjFwF5eiLUW7VvJ2GXe+lxYGm285kqINA+Ru/gOyBg==",
   "success": true,
-  "projectFilePath": "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+  "projectFilePath": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\duende.identityserver\\6.3.5\\duende.identityserver.6.3.5.nupkg.sha512",
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.3.5\\duende.identityserver.aspnetidentity.6.3.5.nupkg.sha512",
@@ -47,5 +47,12 @@
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.signa.net.br/webapi/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

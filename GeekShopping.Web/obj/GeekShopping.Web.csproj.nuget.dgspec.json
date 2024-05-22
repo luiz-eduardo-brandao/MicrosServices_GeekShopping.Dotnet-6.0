@@ -1,30 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj": {}
+    "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\GeekShopping.Web.csproj": {}
   },
   "projects": {
-    "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj": {
+    "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\GeekShopping.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+        "projectUniqueName": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\GeekShopping.Web.csproj",
         "projectName": "GeekShopping.Web",
-        "projectPath": "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+        "projectPath": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\GeekShopping.Web.csproj",
         "packagesPath": "C:\\Users\\Luiz Brandão\\.nuget\\packages\\",
-        "outputPath": "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.Web\\obj\\",
+        "outputPath": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Luiz Brandão\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "http://nuget.signa.net.br/webapi/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

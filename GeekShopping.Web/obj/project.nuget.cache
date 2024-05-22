@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w94g4YZP66Jlnp7qeBMr4FX3WZL7hQyP2Sf3QyISSBAgN5W03wyoT2wqoU6RIPmK48Bq27muDch8d1fJvsksDQ==",
+  "dgSpecHash": "8UdPVOEO4hSEEMjmvq7DAk2fgxp/X3PD3uToSBTDu898hH24hR6B0f7M8gQUDVbDXkTOkBvELqy1qAEnOkB3Vg==",
   "success": true,
-  "projectFilePath": "C:\\edu\\courses\\MicrosservicesArchitecture\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+  "projectFilePath": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\GeekShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -54,5 +54,22 @@
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\Luiz Brandão\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.signa.net.br/webapi/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.33.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
