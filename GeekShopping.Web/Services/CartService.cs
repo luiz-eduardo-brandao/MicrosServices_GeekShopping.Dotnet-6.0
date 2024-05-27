@@ -20,6 +20,9 @@ namespace GeekShopping.Web.Services
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await _client.GetAsync($"{BasePath}/find-cart/{userId}");
+
+            if (!response.IsSuccessStatusCode) return new CartViewModel();
+
             return await response.ReadContentAs<CartViewModel>();
         }
         public async Task<CartViewModel> AddItemToCart(CartViewModel cart, string token)
@@ -49,7 +52,7 @@ namespace GeekShopping.Web.Services
         public async Task<bool> RemoveFromCart(long cartId, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.GetAsync($"{BasePath}/remove-cart/{cartId}");
+            var response = await _client.DeleteAsync($"{BasePath}/remove-cart/{cartId}");
 
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<bool>();

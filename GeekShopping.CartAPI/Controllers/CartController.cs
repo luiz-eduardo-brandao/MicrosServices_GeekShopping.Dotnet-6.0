@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GeekShopping.CartAPI.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/[controller]")] 
     public class CartController : ControllerBase
     {
         private readonly ICartRepository _repository;

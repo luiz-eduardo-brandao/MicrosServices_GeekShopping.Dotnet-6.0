@@ -38,6 +38,8 @@ namespace GeekShopping.CartAPI.Repository
                 .Where(c => c.CartHeaderId == cart.CartHeader.Id)
                 .Include(c => c.Product);
 
+            if (cart.CartHeader == null) return null;
+
             return _mapper.Map<CartVO>(cart);
         }
 
