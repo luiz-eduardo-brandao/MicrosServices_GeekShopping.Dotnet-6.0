@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n70ad5fbcN0LRGzqPw6wfxcL0hslYfcXfPPJweMlR6w=",
+  "Hash": "pfCJrL7kDz7GsmFUS69kilqiq98E5J3t1NSVmlDF7Mk=",
   "Source": "GeekShopping.Web",
   "BasePath": "_content/GeekShopping.Web",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\geek_shopping.png"
+    },
+    {
+      "Identity": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\wwwroot\\images\\order.png",
+      "SourceId": "GeekShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.Web",
+      "RelativePath": "images/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.png"
     },
     {
       "Identity": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\wwwroot\\js\\site.js",

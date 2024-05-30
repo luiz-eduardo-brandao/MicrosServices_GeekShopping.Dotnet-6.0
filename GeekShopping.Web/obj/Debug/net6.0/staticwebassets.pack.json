@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\geek_shopping.png"
     },
     {
+      "Id": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\wwwroot\\images\\order.png",
+      "PackagePath": "staticwebassets\\images\\order.png"
+    },
+    {
       "Id": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
