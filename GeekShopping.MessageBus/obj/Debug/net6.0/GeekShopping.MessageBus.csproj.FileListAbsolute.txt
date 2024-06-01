@@ -1,0 +1,12 @@
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.deps.json
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfoInputs.cache
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfo.cs
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.CoreCompileInputs.cache
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.sourcelink.json
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\refint\GeekShopping.MessageBus.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.pdb
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.MessageBus\obj\Debug\net6.0\ref\GeekShopping.MessageBus.dll

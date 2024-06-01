@@ -92,3 +92,7 @@ C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\obj\Debug\net
 C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.pdb
 C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
 C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+C:\edu\GIT\MicrosServices_GeekShopping.dotnet\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
