@@ -2,7 +2,7 @@
 using GeekShopping.CartAPI.Messages;
 using GeekShopping.CartAPI.RabbitMQSender;
 using GeekShopping.CartAPI.Repository;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GeekShopping.CartAPI.Controllers
@@ -12,11 +12,13 @@ namespace GeekShopping.CartAPI.Controllers
     public class CartController : ControllerBase
     {
         private readonly ICartRepository _repository;
+        private readonly ICouponRepository _couponRepository;
         private readonly IRabbitMQMessageSender _messageSender;
 
-        public CartController(ICartRepository repository, IRabbitMQMessageSender messageSender)
+        public CartController(ICartRepository repository, ICouponRepository couponRepository, IRabbitMQMessageSender messageSender)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
+            _couponRepository = couponRepository ?? throw new ArgumentNullException(nameof(couponRepository));
             _messageSender = messageSender ?? throw new ArgumentNullException(nameof(messageSender));
         }
 
@@ -71,9 +73,25 @@ namespace GeekShopping.CartAPI.Controllers
         [HttpPost("checkout")]
         public async Task<ActionResult<CheckoutHeaderVO>> Checkout(CheckoutHeaderVO checkoutHeader)
         {
+            var token = await HttpContext.GetTokenAsync("access_token");
+
             if (checkoutHeader?.UserId == null) return BadRequest();
+            
             var cart = await _repository.FindCartByUserId(checkoutHeader.UserId);
+            
             if (cart == null) return NotFound();
+
+            if (!string.IsNullOrEmpty(checkoutHeader.CouponCode))
+            {
+                var coupon = await _couponRepository.GetCouponByCouponCode(checkoutHeader.CouponCode, token);
+
+                if (checkoutHeader.DiscountTotal != coupon.DiscountAmount)
+                {
+                    // 412 Precondition Failed
+                    return StatusCode(412);
+                }
+            }
+
             checkoutHeader.CartDetails = cart.CartDetails;
             checkoutHeader.DateTime = DateTime.Now;
 
