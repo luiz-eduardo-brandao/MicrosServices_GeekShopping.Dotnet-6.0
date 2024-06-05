@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lxsrGlKY2nq6xTPaUzNR4k1cME/OPu9l13gwdGIvwj4YEf7ZYt1EQy+P6wMUhsvuXPCbN9Ru1hNdgp8twfx5Ww==",
+  "success": true,
+  "projectFilePath": "C:\\edu\\GIT\\MicrosServices_GeekShopping.dotnet\\GeekShopping.PaymentProcessor\\GeekShopping.PaymentProcessor.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.signa.net.br/webapi/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

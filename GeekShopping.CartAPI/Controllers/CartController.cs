@@ -97,6 +97,8 @@ namespace GeekShopping.CartAPI.Controllers
 
             _messageSender.SendMessage(checkoutHeader, "checkout-queue");
 
+            await _repository.ClearCart(checkoutHeader.UserId);
+
             return Ok(checkoutHeader);
         }
     }
